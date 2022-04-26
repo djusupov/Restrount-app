@@ -1,0 +1,99 @@
+.red {
+  background-color: #da5757;
+}
+
+.green {
+  background-color: #61c961;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  background-color: rgba(134, 134, 116, 0);
+}
+
+.allcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background: rgb(255, 218, 234);
+  background: radial-gradient(circle, rgba(255, 218, 234, 1) 0%, rgba(220, 236, 255, 1) 100%);
+}
+
+.basketDiv {
+  top: 150px;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.generalBasket {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  background-image: url('https://images8.alphacoders.com/981/981684.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameOfRes {
+  font-family: ' Menlo';
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  text-shadow: 0px 0px 20px #000;
+}
+
+.menu {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.4) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.bg {
+  z-index: 5;
+  width: 100%;
+  background-color: rgb(228, 222, 167);
+}
+
+.droptown {
+  border-radius: 10px;
+  background: rgb(154, 168, 237);
+  background: radial-gradient(circle, rgba(154, 168, 237, 1) 0%, rgba(255, 213, 221, 1) 100%);
+  font-size: 20px;
+}
+
+/* 
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.01);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: #009578;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #6dcdb1;
+} */
